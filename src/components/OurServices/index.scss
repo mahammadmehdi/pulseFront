@@ -1,0 +1,68 @@
+.ourServices {
+  max-width: 100%;
+  min-height: 70vh;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+  padding-top: 5%;
+  .ourServicesAll {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70px;
+    .icon {
+      font-size: 65px;
+      line-height: 95px;
+      color: #8a8a8a;
+    }
+    .head {
+      font-size: 48px;
+      text-align: center;
+    }
+    .cards {
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        
+        .iconCard {
+          i {
+            color: #c49812;
+            font-size: 40px;
+          }
+        }
+        .name {
+          font-size: 30px;
+          line-height: 36px;
+          color: #1b1a1a;
+        }
+        .desc {
+          color: #7e7e7e;
+          font-size: 16px;
+          line-height: 32px;
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+    .cards{
+        display: grid !important;
+        grid-template-columns: auto auto !important;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .cards{
+        display: grid !important;
+        grid-template-columns: auto  !important;
+    }
+  }

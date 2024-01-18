@@ -1,0 +1,40 @@
+.wishlistPage{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: center;
+        padding-left: 12%;
+        gap: 50px;
+        .pages {
+          display: flex;
+          flex-direction: column;
+          width: 558px;
+          margin: auto;
+          gap: 20px;
+         
+  
+          .name {
+            color: black;
+            font-size: 18px;
+          }
+          .descPrice {
+            display: flex;
+            gap: 30px;
+            .desc {
+              color: #7e7e7e;
+            }
+            .price {
+              color: black;
+              font-size: 16px;
+            }
+          }
+}
+    }
+}

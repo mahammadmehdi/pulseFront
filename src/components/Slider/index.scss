@@ -1,0 +1,97 @@
+.swiper {
+  max-width: 100%;
+  min-height: 100vh;
+  .pulseSlider {
+    background-image: url("https://preview.colorlib.com/theme/pulse/img/slider/slider-1.jpg.webp");
+    
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .header {
+      font-size: 110px;
+      color: #ffffff;
+    }
+    .desc {
+      font-size: 16px;
+      text-align: right;
+      color: #ffffff;
+      width: 662px;
+    }
+  }
+  .specialSlider {
+    background-image: url("https://preview.colorlib.com/theme/pulse/img/slider/slider-2.jpg.webp");
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .header {
+      font-size: 110px;
+      color: #ffffff;
+    }
+    .desc {
+      font-size: 16px;
+      text-align: right;
+      color: #ffffff;
+      width: 562px;
+    }
+  }
+  .hygenicSlider {
+    background-image: url("https://preview.colorlib.com/theme/pulse/img/slider/slider-3.jpg.webp");
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .header {
+      font-size: 110px;
+      color: #ffffff;
+    }
+    .desc {
+      font-size: 16px;
+      text-align: right;
+      color: #ffffff;
+      width: 600px;
+    }
+  }
+}
+@media screen and (max-width: 900px) {
+    .header{
+        font-size: 90px !important;
+    }
+    .desc{
+        padding-right: 5%;
+    }
+  }
+  @media screen and (max-width: 725px) {
+    .header{
+        font-size: 70px !important;
+    }
+    .desc{
+        padding-right: 15%;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .header{
+        font-size: 50px !important;
+    }
+    .desc{
+        padding-right: 35%;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .header{
+        font-size: 30px !important;
+    }
+    .desc{
+        padding-right: 70%;
+    }
+  }

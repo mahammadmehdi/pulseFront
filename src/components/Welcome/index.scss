@@ -1,0 +1,56 @@
+.welcome {
+    max-width: 100%;
+    margin-top: 5%;
+    padding-bottom: 3%;
+  .welcomeAll {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    .icon {
+        font-size: 65px;
+        color: #8a8a8a;
+        line-height: 98px;
+    }
+    .head {
+        display: flex;
+      
+      .main {
+        font-size: 48px;
+        line-height: 57px;
+      }
+      
+    }
+    .cards {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+      .card {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        .time {
+            font-size: 30px;
+            color: #1b1a1a;
+            text-align: center;
+        }
+        .desc {
+            max-width:  362px;
+            font-size: 16px;
+            color: #7e7e7e;
+            line-height: 32px;
+            text-align: center;
+        }
+      }
+    }
+    .signature {
+        img{
+            max-width: 157px;
+            height: 62px;
+        }
+    }
+  }
+}

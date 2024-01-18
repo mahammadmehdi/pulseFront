@@ -1,0 +1,87 @@
+.ourMenu {
+  max-width: 100%;
+  background-image: url("https://preview.colorlib.com/theme/pulse/img/menu-bg.jpg.webp");
+  min-height: 100vh;
+  padding-top: 5%;
+  .ourMenuAll {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    .icon {
+        font-size: 65px;
+        line-height: 98px;
+        color: #ffffff;
+    }
+    .head {
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      
+      .main {
+        color: white;
+        font-size: 45px;
+        text-align: center;
+      }
+      
+    }
+    .menu {
+      display: flex;
+      gap: 20px;
+      color: white;
+    }
+    .dishes {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 50px;
+      justify-content: center;
+      padding-left: 12%;
+      gap: 50px;
+      .pages {
+        display: flex;
+        flex-direction: column;
+        max-width: 558px;
+        margin: auto;
+       
+
+        .name {
+          color: white;
+          font-size: 18px;
+        }
+        .descPrice {
+          display: flex;
+          .desc {
+            color: #7e7e7e;
+          }
+          .price {
+            color: white;
+            font-size: 16px;
+          }
+        }
+        .wishBasket{
+            display: flex;
+            gap: 10px;
+            align-items: baseline;
+            padding-top: 10px;
+
+            i{
+                font-size: 20px;
+                cursor: pointer;
+            }
+            button{
+                max-width: 150px;
+                height: 45px;
+                border: 2px solid white;
+                background-color: transparent;
+                color: white;
+            }
+            a{
+                color: white;
+            }
+        }
+      }
+    }
+  }
+}
